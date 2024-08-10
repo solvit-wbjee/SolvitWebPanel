@@ -30,7 +30,7 @@ app.use(
     cors({
         origin: ["https://solvit-test-deploy.vercel.app", "https://solvit-client.vercel.app","https://solvit-ten.vercel.app","https://solvit.live"],
         methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
-        allowedHeaders: ['Content-Type', 'Authorization'],
+        allowedHeaders: ['Content-Type', 'Authorization',"Access-Control-Allow-Origin"],
         credentials: true,
     })
 );
