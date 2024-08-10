@@ -30,7 +30,8 @@ app.use(
     cors({
         origin: ["https://solvit-test-deploy.vercel.app", "https://solvit-client.vercel.app","https://solvit-ten.vercel.app","https://solvit.live"],
         methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
-        allowedHeaders: ['Content-Type', 'Authorization',"Access-Control-Allow-Origin"],
+        allowedHeaders: ['Content-Type', 'Authorization'],
+        
         credentials: true,
     })
 );
@@ -43,6 +44,8 @@ const limiter = rateLimit({
     standardHeaders: 'draft-7',
     legacyHeaders: false,
 })
+app.options('*', cors());
+
 
 // routes
 app.use(
