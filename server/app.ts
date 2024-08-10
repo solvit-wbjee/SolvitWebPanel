@@ -35,7 +35,7 @@ app.use(
         credentials: true,
     })
 );
-// app.use(cors({ origin: process.env.ORIGIN, credentials: true, }))
+app.use(cors({ origin: process.env.ORIGIN, credentials: true, }))
 
 // api requests limit
 const limiter = rateLimit({
