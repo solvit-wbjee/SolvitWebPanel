@@ -23,7 +23,6 @@ const Page = ({params}: Props) => {
       }
     }
     if (error) {
-      console.error("Error loading user data:", error);
       redirect("/");
     }
   }, [data,error]);

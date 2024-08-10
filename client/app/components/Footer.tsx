@@ -102,17 +102,20 @@ const Footer = (props: Props) => {
                 </Link>
               </li>
             </ul>
+
           </div>
+
           <div>
+            
             <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">
               Contact Info
             </h3>
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-              Call Us:91-8335019404
+              Call Us: 91-8335019404
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-              Address: 218 Basudevpur Road, Los Saratpally, Shyamnagar
+              Address: 218,Basudevpur Road Saratpally Shyamnagar 
             </p>
 
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">
@@ -122,7 +125,7 @@ const Footer = (props: Props) => {
         </div>
         <br />
         <p className="text-center text-black dark:text-white">
-          Copyright © 2024 SolviT | All Rights Reserved
+          Copyright © 2023 SolviT | All Rights Reserved
         </p>
       </div>
       <br />

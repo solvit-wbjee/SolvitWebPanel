@@ -209,7 +209,7 @@ const PageContent = () => {
           >
             {search
               ? "No courses found!"
-              : "Loading.... Please wait...!"}
+              : "No courses found in this category. Please try another one!"}
           </p>
         )}
         <br />
